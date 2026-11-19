@@ -8,35 +8,29 @@ First-principles systems and security engineer focused on Linux/Unix internals, 
 
 ## Core Repositories & Lab Artifacts
 
-* Airwolf-Fortress
-# Custom host security and firewall automation suite enforcing strict zero-trust network boundaries, stateful filtering, and hardened system defaults-Squid proxied!.
+Airwolf-Fortress
+Custom host security and firewall automation suite enforcing strict zero-trust network boundaries, stateful filtering, and hardened system defaults-Squid proxied!.
 
-* Simulated Range (`local1`)
-# Air-gapped multi-tier test environment orchestrated via `launch-range.sh` and rootless `Podman` (`dmz_network`, `secure_backplane`) for isolated network and security testing.
+Simulated Range (`local1`)
+Air-gapped multi-tier test environment orchestrated via `launch-range.sh` and rootless `Podman` (`dmz_network`, `secure_backplane`) for isolated network and security testing.
   
-* Hardening Automation (`hardening-script`)
-# Shell-driven system hardening and configuration scripts for reproducible host lockdowns across Linux environments.
+Hardening Automation (`hardening-script`)
+Shell-driven system hardening and configuration scripts for reproducible host lockdowns across Linux environments.
   
-* Low-Level Diagnostics (`Hardware-Auditor`)
-# Hardware and system enumeration tooling built with **x86 Assembly**, **C**, and **Perl** (`analyze.pl`) to inspect device and system identifiers.
+Low-Level Diagnostics (`Hardware-Auditor`)
+Hardware and system enumeration tooling built with **x86 Assembly**, **C**, and **Perl** (`analyze.pl`) to inspect device and system identifiers.
 
 ---
 
-## Bare-Metal Lab & Network Architecture
+Bare-Metal Lab & Network Architecture
 
+Multi-OS Bare-Metal Lab
+Fedora 42 | Debian 12 (wookie) | Arch/BlackArch | Kali | Alpine |FreeBSD 14.4 
 
-+----------------------------------------------------------------------------------+
-|                  Multi-OS Bare-Metal Lab                                         |
-|  Fedora 42 | Debian 12 (wookie) | Arch/BlackArch | Kali | Alpine |FreeBSD 14.4   |
-+----------------------------------------------------------------------------------+
-                                  |
-                                  v
-+--------------------------------------------------------------------+
-|  Zero-Trust & Traffic Control Layer                                |
-|  • Stateful Firewalls: nftables / iptables / pf / Airwolf-Fortress |
-|  • Proxy & DNS Enforcement: Squid Proxy + DoH (1.1.1.1 / Mullvad)  |
-|  • Isolation: Rootless Podman (local1 range) & SELinux tuning      |
-+--------------------------------------------------------------------+
+Zero-Trust & Traffic Control Layer
+Stateful Firewalls: nftables / iptables / pf / Airwolf-Fortress
+Proxy & DNS Enforcement: Squid Proxy + DoH (1.1.1.1 / Mullvad)
+Isolation: Rootless Podman (local1 range) & SELinux tuning  
 
 Multi-Distribution & Unix Internals: Hands-on configuration across Fedora, Debian (wookie),
 Arch/BlackArch, Alpine, Kali, and FreeBSD (UFS portability and pf firewalling),

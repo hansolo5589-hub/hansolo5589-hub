@@ -63,6 +63,4 @@ DoH, Vulnerability Management, Incident Response, tcpdump / Wireshark / nmap / s
 Connect
 GitHub: github.com/hansolo5589-hub
 
-Email: hansolo5589@yahoo.com
-
 Location: Malaysia

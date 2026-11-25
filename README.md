@@ -1,4 +1,8 @@
-# Hi, I'm Mohd Firoz (`hansolo5589-hub`) — Call me Han
+# Hi, I'm Mohd Firoz (`hansolo5589-hub`) — 
+
+Call me Han
+
+FROM PASSION TO OBSESSION....
 
 **Systems & Network Security Engineer | Linux/Unix Infrastructure & Zero-Trust Architecture**
 

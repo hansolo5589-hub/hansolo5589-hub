@@ -1,66 +1,52 @@
-# Mohd Firoz Hanif (`hansolo5589-hub`)
+# Hi, I'm Mohd Firoz (`hansolo5589-hub`) — Call me Han
 
-**Systems & Security Engineer | Infrastructure & Zero-Trust Lab Architect**
+**Systems & Network Security Engineer | Linux/Unix Infrastructure & Zero-Trust Architecture**
 
-First-principles systems and security engineer focused on Linux/Unix internals, bare-metal host hardening, segmented network ranges, and low-level diagnostics. Combines hands-on multi-OS lab execution and custom security tooling with industry credentials in Linux, Kubernetes, and cybersecurity, backed by structured operational leadership and ISO 9001 auditing rigor.
-
----
-
-## Core Repositories & Lab Artifacts
-
-Airwolf-Fortress
-Custom host security and firewall automation suite enforcing strict zero-trust network boundaries, stateful filtering, and hardened system defaults-Squid proxied!.
-
-Simulated Range (`local1`)
-Air-gapped multi-tier test environment orchestrated via `launch-range.sh` and rootless `Podman` (`dmz_network`, `secure_backplane`) for isolated network and security testing.
-  
-Hardening Automation (`hardening-script`)
-Shell-driven system hardening and configuration scripts for reproducible host lockdowns across Linux environments.
-  
-Low-Level Diagnostics (`Hardware-Auditor`)
-Hardware and system enumeration tooling built with **x86 Assembly**, **C**, and **Perl** (`analyze.pl`) to inspect device and system identifiers.
+Hands-on systems and network engineer with a multi-decade background in IT instruction, Ethical hacker, process quality engineering (ISO 9001:2015 Lead Auditor), and bare-metal Linux/BSD infrastructure. Focused on CLI-first administration, host-level packet filtering, proxy hardening, and low-level network forensics.
 
 ---
 
-Bare-Metal Lab & Network Architecture
+### Technical Skills
 
-Multi-OS Bare-Metal Lab
-Fedora 42 | Debian 12 (wookie) | Arch/BlackArch | Kali | Alpine |FreeBSD 14.4 
+| Category | Skills |
+| :--- | :--- |
+| **Operating Systems** | Debian (`wookie`), Fedora 42, Arch / BlackArch, Kali Linux, Alpine Linux, FreeBSD 14.4 (UFS), Windows (Hardened / Air-Gapped) |
+| **Networking & Security** | `nftables`, `iptables`, `pf`, `firewalld`, Squid Proxy (SSL Bumping), DNS-over-HTTPS (DoH), Zero-Trust Killswitches (`Airwolf-Fortress`), SELinux, OSI Layer 2–4 Troubleshooting |
+| **Packet & Traffic Analysis** | `tcpdump`, Wireshark, `nmap`, `ss`, Raw Packet Header Inspection, Network Forensics, Vulnerability Management & Incident Response |
+| **Scripting & Programming** | Bash, AT&T KornShell (`ksh93u+m`), `zsh`, C, C++, Perl, Python, x86 Assembly |
+| **Containers & Lab Infra** | Rootless Podman, `podman-compose`, Kubernetes (LFS158), Air-Gapped Multi-Node Ranges (`local1`), Kernel Tuning (`sysctl`), Custom GRUB Multi-Booting |
 
-Zero-Trust & Traffic Control Layer
-Stateful Firewalls: nftables / iptables / pf / Airwolf-Fortress
-Proxy & DNS Enforcement: Squid Proxy + DoH (1.1.1.1 / Mullvad)
-Isolation: Rootless Podman (local1 range) & SELinux tuning  
+---
 
-Multi-Distribution & Unix Internals: Hands-on configuration across Fedora, Debian (wookie),
-Arch/BlackArch, Alpine, Kali, and FreeBSD (UFS portability and pf firewalling),
-with kernel tuning via sysctl and terminal-first workflows (ksh93u+m, zsh, bash).
+### Tools & Environment
 
-Network & Proxy Hardening: Local proxy filtering with Squid, mandatory DNS-over-HTTPS routing
-to prevent DNS leaks, and packet/socket inspection using tcpdump, Wireshark, nmap, and ss.
+| Category | Tools |
+| :--- | :--- |
+| **System & Diagnostics** | `smartmontools`, `dmidecode`, `iproute2`, `ss`, `dmesg`, `systemd` / OpenRC |
+| **Version Control & Docs** | Git, GitHub, Markdown, Obsidian |
 
-Credentials & Technical Stack
-Certifications & Courses
-Cisco Networking Academy: Networking Basics,
-Cisco Certified Ethical Hacker
+---
 
-Linux Foundation: Introduction to Linux (LFS101),
-Introduction to Kubernetes (LFS158),
-Cybersecurity Essentials (LFC108),
-Linux Kernel Development (LFD103)
+### Bare-Metal Lab & Network Architecture
 
-Quality & Auditing: ISO 9001:2015 Lead Auditor
+- **Multi-OS Bare-Metal Lab:** Fedora 42 | Debian 12 (`wookie`) | Arch/BlackArch | Kali | Alpine | FreeBSD 14.4
+- **Stateful Firewalls:** `nftables` / `iptables` / `pf` / `Airwolf-Fortress`
+- **Proxy & DNS Enforcement:** Squid Proxy + Mandatory DoH (`1.1.1.1` / Mullvad)
+- **Isolation:** Rootless Podman (`local1` range) & SELinux Tuning
 
-Languages, Systems & Security
-Languages & Scripting: C, C++, x86 Assembly, Perl, Bash / KornShell (ksh93), Python
+---
 
-Systems & Containers: Linux & Unix Administration, Kernel Tuning, Rootless Podman,
-Kubernetes (LFS158), SELinux
+### Credentials & Certifications
 
-Security & Networking: Zero-Trust Networking, nftables / iptables / pf, Squid Proxy,
-DoH, Vulnerability Management, Incident Response, tcpdump / Wireshark / nmap / ss
+| Domain | Credentials |
+| :--- | :--- |
+| **Cisco Networking Academy** | Ethical Hacker (Nov 2026), Networking Basics |
+| **Linux Foundation** | Linux Kernel Development (`LFD103`), Introduction to Linux (`LFS101`), Cybersecurity Essentials (`LFC108`), Introduction to Kubernetes (`LFS158`) |
+| **Quality & Auditing** | ISO 9001:2015 Lead Auditor |
 
-Connect
-GitHub: github.com/hansolo5589-hub
+---
 
-Location: Malaysia
+### Connect
+
+* **GitHub:** [github.com/hansolo5589-hub](https://github.com/hansolo5589-hub)
+* **Location:** Port Klang / Klang Valley, Malaysia

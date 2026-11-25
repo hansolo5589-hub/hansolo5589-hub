@@ -22,7 +22,11 @@ Hands-on systems and network engineer with a multi-decade background in IT instr
 
 | Category | Tools |
 | :--- | :--- |
-| **System & Diagnostics** | `smartmontools`, `dmidecode`, `iproute2`, `ss`, `dmesg`, `systemd` / OpenRC |
+| **System & Kernel Diagnostics** | `smartmontools`, `dmidecode`, `iproute2`, `ss`, `dmesg`, `journalctl`, `sysctl`, `strace`, `lsof`, `systemd` / OpenRC |
+| **Network & Wireless Forensics** | `tcpdump`, Wireshark, `nmap`, `airodump-ng` / `aircrack-ng`, `sockstat`, `curl`, `dig` / `drill` |
+| **Firewall, Proxy & IDS Legacy/Modern** | `nftables`, `iptables`, `pf`, `firewalld`, Squid Proxy, Snort, Check Point Firewall-1 |
+| **Endpoint & Host Hardening** | `simplewall` (Windows), Sysinternals Suite (`TCPView`, `Process Explorer`, `Autoruns`), NetGuard / AdGuard (Android) |
+| **Bootloaders, Storage & Labs** | Custom GRUB2, UFS / ext4 / XFS, `ip netns`, Rootless Podman, Kiwix Offline Docs |
 | **Version Control & Docs** | Git, GitHub, Markdown, Obsidian |
 
 ---

@@ -41,7 +41,7 @@ Hands-on systems and network engineer with a multi-decade background in IT instr
 | Domain | Credentials |
 | :--- | :--- |
 | **Cisco Networking Academy** | Ethical Hacker (Nov 2026), Networking Basics |
-| **Linux Foundation** | Linux Kernel Development (`LFD103`), Introduction to Linux (`LFS101`), Cybersecurity Essentials (`LFC108`), Introduction to Kubernetes (`LFS158`) |
+| **Linux Foundation** | Linux Kernel Development, Cybersecurity Essentials, Introduction to Kubernetes |
 | **Quality & Auditing** | ISO 9001:2015 Lead Auditor |
 
 ---
